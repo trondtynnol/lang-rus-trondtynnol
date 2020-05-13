@@ -1,0 +1,63 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Noun - статья M anim : # Noun - full paradigm
+      статья+N+Fem+Inan+Sg+Nom: статья
+      статья+N+Fem+Inan+Sg+Acc: статью
+      статья+N+Fem+Inan+Sg+Gen: статьи
+      статья+N+Fem+Inan+Sg+Loc: статье
+      статья+N+Fem+Inan+Sg+Dat: статье
+      статья+N+Fem+Inan+Sg+Ins: статьёй
+      статья+N+Fem+Inan+Pl+Nom: статьи
+      статья+N+Fem+Inan+Pl+Acc: статьи
+      статья+N+Fem+Inan+Pl+Gen: статей
+      статья+N+Fem+Inan+Pl+Loc: статьях
+      статья+N+Fem+Inan+Pl+Dat: статьям
+      статья+N+Fem+Inan+Pl+Ins: статьями
+  Noun - семья M anim : # Noun - full paradigm
+      семья+N+Fem+Inan+Sg+Nom: семья
+      семья+N+Fem+Inan+Sg+Acc: семью
+      семья+N+Fem+Inan+Sg+Gen: семьи
+      семья+N+Fem+Inan+Sg+Loc: семье
+      семья+N+Fem+Inan+Sg+Dat: семье
+      семья+N+Fem+Inan+Sg+Ins: семьёй
+      семья+N+Fem+Inan+Pl+Nom: семьи
+      семья+N+Fem+Inan+Pl+Acc: семьи
+      семья+N+Fem+Inan+Pl+Gen: семей
+      семья+N+Fem+Inan+Pl+Loc: семьях
+      семья+N+Fem+Inan+Pl+Dat: семьям
+      семья+N+Fem+Inan+Pl+Ins: семьями
+  Noun - муравей M anim : # Noun - full paradigm
+      муравей+N+Msc+Anim+Sg+Nom: муравей
+      муравей+N+Msc+Anim+Sg+Acc: муравья
+      муравей+N+Msc+Anim+Sg+Gen: муравья
+      муравей+N+Msc+Anim+Sg+Loc: муравье
+      муравей+N+Msc+Anim+Sg+Dat: муравью
+      муравей+N+Msc+Anim+Sg+Ins: муравьём
+      муравей+N+Msc+Anim+Pl+Nom: муравьи
+      муравей+N+Msc+Anim+Pl+Acc: муравьёв
+      муравей+N+Msc+Anim+Pl+Gen: муравьёв
+      муравей+N+Msc+Anim+Pl+Loc: муравьях
+      муравей+N+Msc+Anim+Pl+Dat: муравьям
+      муравей+N+Msc+Anim+Pl+Ins: муравьями
+  Noun - бельё M anim : # Noun - full paradigm
+      бельё+N+Neu+Inan+Sg+Nom: бельё
+      бельё+N+Neu+Inan+Sg+Acc: бельё
+      бельё+N+Neu+Inan+Sg+Gen: белья
+      бельё+N+Neu+Inan+Sg+Loc: белье
+      бельё+N+Neu+Inan+Sg+Dat: белью
+      бельё+N+Neu+Inan+Sg+Ins: бельём
+

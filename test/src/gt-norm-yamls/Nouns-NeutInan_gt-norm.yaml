@@ -1,0 +1,104 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+Tests:
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+  Noun - понятие M anim : # Noun - full paradigm
+      понятие+N+Neu+Inan+Sg+Nom: понятие
+      понятие+N+Neu+Inan+Sg+Acc: понятие
+      понятие+N+Neu+Inan+Sg+Gen: понятия
+      понятие+N+Neu+Inan+Sg+Loc: понятии
+      понятие+N+Neu+Inan+Sg+Dat: понятию
+      понятие+N+Neu+Inan+Sg+Ins: понятием
+      понятие+N+Neu+Inan+Pl+Nom: понятия
+      понятие+N+Neu+Inan+Pl+Acc: понятия
+      понятие+N+Neu+Inan+Pl+Gen: понятий
+      понятие+N+Neu+Inan+Pl+Loc: понятиях
+      понятие+N+Neu+Inan+Pl+Dat: понятиям
+      понятие+N+Neu+Inan+Pl+Ins: понятиями
+  Noun - чувство M anim : # Noun - full paradigm
+      чувство+N+Neu+Inan+Sg+Nom: чувство
+      чувство+N+Neu+Inan+Sg+Acc: чувство
+      чувство+N+Neu+Inan+Sg+Gen: чувства
+      чувство+N+Neu+Inan+Sg+Loc: чувстве
+      чувство+N+Neu+Inan+Sg+Dat: чувству
+      чувство+N+Neu+Inan+Sg+Ins: чувством
+      чувство+N+Neu+Inan+Pl+Nom: чувства
+      чувство+N+Neu+Inan+Pl+Acc: чувства
+      чувство+N+Neu+Inan+Pl+Gen: чувств
+      чувство+N+Neu+Inan+Pl+Loc: чувствах
+      чувство+N+Neu+Inan+Pl+Dat: чувствам
+      чувство+N+Neu+Inan+Pl+Ins: чувствами
+  Noun - яблоко M anim : # Noun - full paradigm
+      яблоко+N+Neu+Inan+Sg+Nom: яблоко
+      яблоко+N+Neu+Inan+Sg+Acc: яблоко
+      яблоко+N+Neu+Inan+Sg+Gen: яблока
+      яблоко+N+Neu+Inan+Sg+Loc: яблоке
+      яблоко+N+Neu+Inan+Sg+Dat: яблоку
+      яблоко+N+Neu+Inan+Sg+Ins: яблоком
+      яблоко+N+Neu+Inan+Pl+Nom: яблоки
+      яблоко+N+Neu+Inan+Pl+Acc: яблоки
+      яблоко+N+Neu+Inan+Pl+Gen: яблок
+      яблоко+N+Neu+Inan+Pl+Loc: яблоках
+      яблоко+N+Neu+Inan+Pl+Dat: яблокам
+      яблоко+N+Neu+Inan+Pl+Ins: яблоками
+  Noun - существо M anim : # Noun - full paradigm
+      существо²+N+Neu+Inan+Sg+Nom: существо
+      существо²+N+Neu+Inan+Sg+Acc: существо
+      существо²+N+Neu+Inan+Sg+Gen: существа
+      существо²+N+Neu+Inan+Sg+Loc: существе
+      существо²+N+Neu+Inan+Sg+Dat: существу
+      существо²+N+Neu+Inan+Sg+Ins: существом
+      существо²+N+Neu+Inan+Pl+Nom: существа
+      существо²+N+Neu+Inan+Pl+Acc: существа
+      существо²+N+Neu+Inan+Pl+Gen: существ
+      существо²+N+Neu+Inan+Pl+Loc: существах
+      существо²+N+Neu+Inan+Pl+Dat: существам
+      существо²+N+Neu+Inan+Pl+Ins: существами
+  Noun - вино M anim : # Noun - full paradigm
+      вино+N+Neu+Inan+Sg+Nom: вино
+      вино+N+Neu+Inan+Sg+Acc: вино
+      вино+N+Neu+Inan+Sg+Gen: вина
+      вино+N+Neu+Inan+Sg+Loc: вине
+      вино+N+Neu+Inan+Sg+Dat: вину
+      вино+N+Neu+Inan+Sg+Ins: вином
+      вино+N+Neu+Inan+Pl+Nom: вина
+      вино+N+Neu+Inan+Pl+Acc: вина
+      вино+N+Neu+Inan+Pl+Gen: вин
+      вино+N+Neu+Inan+Pl+Loc: винах
+      вино+N+Neu+Inan+Pl+Dat: винам
+      вино+N+Neu+Inan+Pl+Ins: винами
+  Noun - море M anim : # Noun - full paradigm
+      море+N+Neu+Inan+Sg+Nom: море
+      море+N+Neu+Inan+Sg+Acc: море
+      море+N+Neu+Inan+Sg+Gen: моря
+      море+N+Neu+Inan+Sg+Loc: море
+      море+N+Neu+Inan+Sg+Dat: морю
+      море+N+Neu+Inan+Sg+Ins: морем
+      море+N+Neu+Inan+Pl+Nom: моря
+      море+N+Neu+Inan+Pl+Acc: моря
+      море+N+Neu+Inan+Pl+Gen: морей
+      море+N+Neu+Inan+Pl+Loc: морях
+      море+N+Neu+Inan+Pl+Dat: морям
+      море+N+Neu+Inan+Pl+Ins: морями
+  Noun - слово M anim : # Noun - full paradigm
+      слово+N+Neu+Inan+Sg+Nom: слово
+      слово+N+Neu+Inan+Sg+Acc: слово
+      слово+N+Neu+Inan+Sg+Gen: слова
+      слово+N+Neu+Inan+Sg+Loc: слове
+      слово+N+Neu+Inan+Sg+Dat: слову
+      слово+N+Neu+Inan+Sg+Ins: словом
+      слово+N+Neu+Inan+Pl+Nom: слова
+      слово+N+Neu+Inan+Pl+Acc: слова
+      слово+N+Neu+Inan+Pl+Gen: слов
+      слово+N+Neu+Inan+Pl+Loc: словах
+      слово+N+Neu+Inan+Pl+Dat: словам
+      слово+N+Neu+Inan+Pl+Ins: словами

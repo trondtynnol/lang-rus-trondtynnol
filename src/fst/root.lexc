@@ -1,0 +1,210 @@
+Multichar_Symbols
+
+! NOTE ABOUT LEXC FILES: The lexc files were originally generated from
+! Zaliznjak's dictionary with a python script. Entries that have not
+! been implemented yet (with suitable LEXICON continuation classes) are
+! commented out with an underscore "!_". Entries that are 'variants'
+! are commented out with a hyphen "!-". Other future work is marked
+! with "TODO" in a comment
+
+!! !!!Russian tags
+
+!! !!Stressed vowels
+
+а́ е́ ё́ и́ о́ у́ ы́ э́ ю́ я́    !!= * @CODE@  Primary stress (lower)
+а̀ ѐ ё̀ ѝ о̀ у̀ ы̀ э̀ ю̀ я̀    !!= * @CODE@  Secondary stress (lower)
+
+А́ Е́ Ё́ И́ О́ У́ Ы́ Э́ Ю́ Я́   !!= * @CODE@  Primary stress (upper)
+А̀ Ѐ Ё̀ Ѝ О̀ У̀ Ы̀ Э̀ Ю̀ Я̀   !!= * @CODE@  Secondary stress (upper)
+
+!! !!Symbols that need to be escaped on the lower side (towards twolc): (copied from sme)
+»7     ! »
+«7     ! «
+
+%[%>%]  ! >
+%[%<%]  ! <
+
+#7 ! real #
+
+!! !!Markers
+
+¹ ² ³ ⁴ ⁵ ⁶ ⁷ ⁸ ⁹ ⁰ !!= * @CODE@ = Used to enumerate homonymous lemmas
+%>   !!= * @CODE@ = End-of-stem marker (nominals)
+%<   !!= * @CODE@ = End-of-stem marker (verbs)
+%^F  !!= * @CODE@ = Fleeting vowel marker
+%^o %^O !!= * @CODE@ = Verbal prefix fleeting vowel
+%^G  !!= * @CODE@ = Irregular GenPl marker (to keep ов/ев on n stems, e.g. ов%^G
+%^Z  !!= * @CODE@ = Zero ending (resolves to 0/й/ь)
+%^M  !!= * @CODE@ = Verb stem mutation
+%^D  !!= * @CODE@ = archiphoneme for д~жд alternation in past passive participles
+%^T  !!= * @CODE@ = archiphoneme for т~щ alternation in verbs
+%^d  !!= * @CODE@ = archiphoneme for verb stems with -дший past active participles (-сти 7 (-д-) )
+%^t  !!= * @CODE@ = archiphoneme for verb stems with -тший past active participles (-сти 7 (-т-) )
+%^R  !!= * @CODE@ = archiphoneme for бороть and пороть
+%^U  !!= * @CODE@ = Imperative ending (unstressed)
+%^S !!= * @CODE@ = Imperative ending (stressed)
+%^P !!= * @CODE@ = Attenuative comparative prefix: по~
+%^A !!= * @CODE@ = Attenuative comparative prefix: по~
+%^Y !!= * @CODE@ = Verbal prefix вы́-
+
+!! !!POS
++A      !!= * @CODE@ = Adjective
++Abbr   !!= * @CODE@ = Abbreviation
++Adv    !!= * @CODE@ = Adverb
++CC     !!= * @CODE@ = Coordinating conjunction
++CS     !!= * @CODE@ = Subordinating conjunction
++Det    !!= * @CODE@ = Determiner
++Interj !!= * @CODE@ = Interjection
++N      !!= * @CODE@ = Noun
++Num    !!= * @CODE@ = Numeral
++Paren  !!= * @CODE@ = Parenthetical вводное слово
++Pcle   !!= * @CODE@ = Particle
++Po     !!= * @CODE@ = Postposition (ради is the only postposition)
++Pr     !!= * @CODE@ = Preposition
++Pron   !!= * @CODE@ = Pronoun
++V      !!= * @CODE@ = Verb
+
+!! !!Sub-POS
++All    !!= * @CODE@ = All: весь
++Coll   !!= * @CODE@ = Collective numerals
++Def    !!= * @CODE@ = Definite
++Dem    !!= * @CODE@ = Demonstrative
++Indef  !!= * @CODE@ = Indefinite: кто-то, кто-нибудь, кто-либо, кое-кто, etc.
++Interr !!= * @CODE@ = Interrogative: кто, что, какой, ли, etc.
++Neg    !!= * @CODE@ = Negative: никто, некого, etc.
++Pers   !!= * @CODE@ = Personal
++Pos    !!= * @CODE@ = Possessive, e.g. его, наш
++Prcnt  !!= * @CODE@ = Percent
++Prop   !!= * @CODE@ = Proper
++Recip  !!= * @CODE@ = Reciprocal: друг друга
++Refl   !!= * @CODE@ = Pronoun себя, possessive свой
++Rel    !!= * @CODE@ = Relativizer, e.g. который, где, как, куда, сколько, etc.
++Symbol !!≈ * @CODE@ = independent symbols in the text stream, like £, €, ©
+
+!! !!Verbal MSP
++Impf +Perf       !!= * @CODE@ = Imperfective, perfective
++IV +TV           !!= * @CODE@ = Intransitive, transitive (Zaliznjak does not mark trans-only, so transitive verbs all have both TV and IV)
++Inf +Imp         !!= * @CODE@ = Imperatives: 2nd person = читай, 1st person = прочитаем
++Pst +Prs +Fut    !!= * @CODE@ = Past, present, future
++Sg1 +Sg2 +Sg3    !!= * @CODE@ = person sg
++Pl1 +Pl2 +Pl3    !!= * @CODE@ = person pl
++PrsAct +PrsPss   !!= * @CODE@ = Participles (+PrsAct+Adv and +PstAct+Adv are used for the verbal adverbs)
++PstAct +PstPss   !!= * @CODE@ = Participles
++Pass             !!= * @CODE@ = Passive
++Imprs            !!= * @CODE@ = Impersonal (cannot have explicit subject)
++Lxc            !!= * @CODE@ = Lexicalized (for participial forms)
+
++Der            !!= * @CODE@ = Derived (for participial forms)
++Der/PrsAct            !!= * @CODE@ = Derived (for participial forms)
++Der/PrsPss            !!= * @CODE@ = Derived (for participial forms)
++Der/PstAct            !!= * @CODE@ = Derived (for participial forms)
++Der/PstPss            !!= * @CODE@ = Derived (for participial forms)
+
+!! !!Nominal MSP
++Msc +Fem +Neu +MFN  !!= * @CODE@ = grammatical gender,  +MFN = gender unspecifiable (pl tantum)
++Inan +Anim +AnIn    !!= * @CODE@ = animacy (+AnIn = ambivalent animacy for non-accusative modifiers)
++Sem/Sur +Sem/Pat    !!= * @CODE@ = Surname (фамилия), Patronymic
++Sem/Ant +Sem/Alt    !!= * @CODE@ = Anthroponym/Given name, Other
++Sg +Pl              !!= * @CODE@ = number
++Nom +Acc +Gen       !!= * @CODE@
++Loc +Dat +Ins       !!= * @CODE@
++Loc2 +Gen2 +Voc     !!= * @CODE@
++Count               !!= * @CODE@ = Count (for человек/людей or лет/годов, etc. also шага́/шара́/часа́/etc.)
++Ord    !!= * @CODE@  = Ordinal
++Cmpar  !!= * @CODE@  = Comparative
++Sint   !!= * @CODE@  = Synthetic comparative is possible, e.g. старее
++Pred   !!= * @CODE@  = "Predicate", also used for short-form adjectives
++Cmpnd  !!= * @CODE@  = "Compound", used for compounding adjectives, such as русско-английский
++Att    !!= * @CODE@  = Attenuative comparatives like получше, поновее, etc.
+
+!! !!Punctuation
++PUNCT   !!= * @CODE@ = Punctuation
++CLB   !!= * @CODE@ = Clause boundary  ! TODO SENT vs CLB which is which?
++SENT   !!= * @CODE@ = Clause boundary
++COMMA  !!= * @CODE@ = Comma
++DASH   !!= * @CODE@ = Dash
++LQUOT   !!= * @CODE@ = Left quotation
++RQUOT   !!= * @CODE@ = Right quotation
++QUOT   !!= * @CODE@ = "Ambidextrous" quotation
++LPAR    !!= * @CODE@ = Left parenthesis/bracket
++RPAR    !!= * @CODE@ = Right parenthesis/bracket
++LEFT    !!= * @CODE@ = Left parenthesis/bracket/quote/etc.
++RIGHT    !!= * @CODE@ = Right parenthesis/bracket/quote/etc.
+
+!! !!Other tags
++Prb     !!= * @CODE@ = +Prb(lematic): затруднительно - предположительно - нет
++Fac     !!= * @CODE@ = Facultative
++PObj    !!= * @CODE@ = Object of preposition (prothetic н: него нее них)
++Epenth  !!= * @CODE@ = epenthesis on prepositions (о~об~обо or в~во)
++Leng    !!= * @CODE@ = Lengthened доброй~доброю (marks less-canonical wordform that has more syllables)
++Elid    !!= * @CODE@ = Elided (Иванович~Иваныч, новее~новей, чтобы~чтоб, или~иль, коли~коль)
++Use/NG  !!= * @CODE@ = Do not generate (used for apertium, etc.)
++Use/Obs !!= * @CODE@ = Obsolete
++Use/Ant !!= * @CODE@ = Antiquated "устаревшее"
++Err/Orth !!= * @CODE@ = Substandard
++Err/L2_ii   !!= * @CODE@ = L2 error: Failure to change ending ие to ии in +Sg+Loc or +Sg+Dat, e.g. к Марие, о кафетерие, о знание
+	! +Err/L2_ii is only possible on nouns with a stem in и
++Err/L2_Pal  !!= * @CODE@ = L2 error: Palatalization: failure to place soft-indicating symbol after soft stem, e.g. земла (compare земля)
+	! +Err/L2_Pal only occurs on 1) nouns and modifiers that have a soft stem, or 2) verbs in евать, e.g. малует (compare малюет) 
++Err/L2_FV   !!= * @CODE@ = L2 error: Presence of fleeting vowel where it should be deleted, e.g. отеца (compare отца)
+	! +Err/L2_FV only occurs in lexemes that have a fleeting vowel in at least one form.
++Err/L2_NoFV !!= * @CODE@ = L2 error: Lack of fleeting vowel where it should be inserted, e.g. окн (compare окон)
+	! +Err/L2_NoFV only occurs in lexemes that have a fleeting vowel in at least one form.
++Err/L2_SRo  !!= * @CODE@ = L2 error: Failure to change о to е after hushers and ц, e.g. Сашой (compare Сашей)
+	! +Err/L2+SRo only occurs in 1) nouns and modifiers with stems in hushers or ц, or 2) verbs in евать, e.g. танцовать (compare танцевать)
++Err/L2_SRy  !!= * @CODE@ = L2 error: Failure to change ы to и after hushers and velars, e.g. книгы (compare книги)
+	! +Err/L2+SRo only occurs in nouns and modifiers with stems in hushers or velars
+
+! More use tags:
+! ласкательное - +Use/Aff(ectionate)
+! литературное - +Use/Lit(erary)
+! народнопоэтическое - +Use/Flk (folk poetry)
+! областное - +Use/Dia(lectal)
+! поэтический - +Use/Poet(ic)
+! просторечное - +Err/Orth(standard)
+! профессиональо - +Use/Prof(essional)
+! старинное - +Use/Anc(ient)
+! увеличительное - +Use/Aug(mentative)
+! уменьшительное - +Use/Dim(inutive)
+! устаревающее - +Use/Old (going out of date)
+! устаревшее - +Use/Ant(iquated)
+! anatomical - +Use/Anat
+! biological - +Use/Bio
+! botanical - +Use/Bot
+! geological - +Use/Geo
+! grammatical - +Use/Gram
+! zoological - +Use/Zoo
+! historical - +Use/Hist(orical)
+! mathematical - +Use/Math
+! medical - +Use/Med
+! musical - +Use/Mus
+! agricultural - +Use/Agr
+! technical - +Use/Tech
+! chemical - +Use/Chem
+! church - +Use/Relig
+! law - +Use/Law
+! etc. +Use/Mari(time)
+
+!! !!!Key lexicon
+
+LEXICON Root    !!= * @CODE@
+
+Abbreviation ;	!!= * @CODE@
+:%^P%^A Adjective ;	    !!= * @CODE@
+Adverb ;	    !!= * @CODE@
+Comparative ;   !!= * @CODE@
+Conjunction ;   !!= * @CODE@
+Interjection ;  !!= * @CODE@
+Noun ;		    !!= * @CODE@
+Numeral ;       !!= * @CODE@
+Parenthetical ; !!= * @CODE@
+Particle ;      !!= * @CODE@
+Predicative ;   !!= * @CODE@
+Preposition ;   !!= * @CODE@
+Pronoun ;	    !!= * @CODE@
+Verb ;		    !!= * @CODE@
+Propernoun ;    !!= * @CODE@
+Punctuation ;   !!= * @CODE@
+Symbols     ;   !!= * @CODE@
+LexicalizedParticiple ;   !!= * @CODE@
+! NonLexicalizedParticiple ;   !!= * @CODE@

@@ -1,0 +1,103 @@
+! Divvun & Giellatekno - open source grammars for Sámi and other languages
+! Copyright © 2000-2010 The University of Tromsø & the Norwegian Sámi Parliament
+! http://giellatekno.uit.no & http://divvun.no
+!
+! This program is free software; you can redistribute and/or modify
+! this file under the terms of the GNU General Public License as published by
+! the Free Software Foundation, either version 3 of the License, or
+! (at your option) any later version. The GNU General Public License
+! is found at http://www.gnu.org/licenses/gpl.html. It is
+! also available in the file $GTHOME/LICENSE.txt.
+!
+! Other licensing options are available upon request, please contact
+! giellatekno@hum.uit.no or feedback@divvun.no
+
+! ================= !
+! The Russian dates !
+! ================= !
+
+
+! Note that the months (but not all :-( are stress marked.
+
+Multichar_Symbols
+
++Use/NG
+
+LEXICON Root
+DAY ;
+DAY10 ;
+%0: DAY ;
+
+LEXICON DAY
+1.:пе́рвoе%  29MONTH ;
+2.:второ́е%  29MONTH ;
+3.:тре́тье%  29MONTH ;
+4.:четвёртое%  29MONTH ;
+5.:пя́тое%  29MONTH ;
+6.:шесто́е%  29MONTH ;
+7.:седьмо́е%  29MONTH ;
+8.:восьмо́е%  29MONTH ;
+9.:девя́тoе%  29MONTH ;
+
+LEXICON DAY10
+1%0.:деся́тое%  29MONTH ;
+11.:оди́ннадцатoе%  29MONTH ;
+12.:двена́дцатoе%  29MONTH ;
+13.:трина́дцатое%  29MONTH ;
+14.:четы́рнадцатое%  29MONTH ;
+15.:пятна́дцатое%  29MONTH ;
+16.:шестна́дцатое%  29MONTH ;
+17.:семна́дцатое%  29MONTH ;
+18.:восемна́дцатое%  29MONTH ;
+19.:девятна́дцатое%  29MONTH ;
+2%0.:двадца́тое%  29MONTH ;
+21.:два́дцать% пе́рвое%  29MONTH ;
+22.:два́дцать% второ́е%  29MONTH ;
+23.:два́дцать% тре́тье%  29MONTH ;
+24.:два́дцать% четвёртое%  29MONTH ;
+25.:два́дцать% пя́тое%  29MONTH ;
+26.:два́дцать% шесто́е%  29MONTH ;
+27.:два́дцать% седьмо́е%  29MONTH ;
+28.:два́дцать% восьмо́е%  29MONTH ;
+29.:два́дцать% девя́тое%  29MONTH ;
+ 
+3%0.:тридца́тое%  30MONTH ;
+31.:три́дцать% пе́рвое%  31MONTH ;
+ 
+ 
+ 
+LEXICON 29MONTH
+2:февраля́ PUNCT ;
+%02:февраля́ PUNCT ;
+30MONTH ;
+31MONTH ;
+ 
+LEXICON 30MONTH
+4:апре́ля PUNCT ;
+6:ию́ня PUNCT ;
+9:сентября́ PUNCT ;
+11:ноября́ PUNCT ;
+%04:апре́ля PUNCT ;
+%06:ию́ня PUNCT ;
+%09:сентября́ PUNCT ;
+31MONTH ;
+ 
+LEXICON 31MONTH
+1:января́ PUNCT ;
+3:ма́рта PUNCT ;
+5:ма́я PUNCT ;
+7:ию́ля PUNCT ;
+8:а́вгуста PUNCT ;
+1%0:октября́ PUNCT ;
+12:декабря́ PUNCT ;
+%01:января́ PUNCT ;
+%03:ма́рта PUNCT ;
+%05:ма́я PUNCT ;
+%07:ию́ля PUNCT ;
+%08:а́вгуста PUNCT ;
+ 
+LEXICON PUNCT 
+     %.: # ; ! STRICT 12.3.
+       : # ; ! SLOPPY 12.3
+!+Use/NG: # ; ! SLOPPY 12.3
+ 

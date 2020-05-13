@@ -1,0 +1,740 @@
+LEXICON числ.-п_[п_a]
++Num+Ord: LF_stem ; 
+
+LEXICON числ.-п_[п_b]
++Num+Ord: LF_end ; 
+
+LEXICON числ.-п_[мс_a]
++Num+Ord: мс-п_a_Msc ; 
++Num+Ord: мс-п_a_Neu ; 
++Num+Ord: мс-п_a_Fem ; 
++Num+Ord: мс-п_a_Pl_inananim ; 
+
+LEXICON 1
++Num: один ; 
+
+LEXICON 2
++Num+Msc+AnIn+Nom:а́ # ; 
++Num+Neu+AnIn+Nom:а́ # ; 
++Num+Fem+AnIn+Nom:е́ # ; 
++Num+Msc+Inan+Acc:а́ # ; 
++Num+Msc+Anim+Acc:у́х # ; 
++Num+Neu+AnIn+Acc:а́ # ; 
++Num+Fem+AnIn+Acc:е́ # ; 
++Num+Fem+Anim+Acc+Fac:у́х # ; 
++Num+MFN+AnIn+Gen:у́х # ; 
++Num+MFN+AnIn+Loc:у́х # ; 
++Num+MFN+AnIn+Dat:у́м # ; 
++Num+MFN+AnIn+Ins:умя́ # ; 
+
+LEXICON оба
++Num+Msc+AnIn+Nom:а # ; 
++Num+Msc+Inan+Acc:а # ; 
++Num+Msc+Anim+Acc:о́их # ; 
++Num+Msc+AnIn+Gen:о́их # ; 
++Num+Msc+AnIn+Loc:о́их # ; 
++Num+Msc+AnIn+Dat:о́им # ; 
++Num+Msc+AnIn+Ins:о́ими # ; 
++Num+Neu+AnIn+Nom:а # ; 
++Num+Neu+AnIn+Acc:а # ; 
++Num+Neu+AnIn+Gen:о́их # ; 
++Num+Neu+AnIn+Loc:о́их # ; 
++Num+Neu+AnIn+Dat:о́им # ; 
++Num+Neu+AnIn+Ins:о́ими # ; 
++Num+Fem+AnIn+Nom:е # ; 
++Num+Fem+Inan+Acc:е # ; 
++Num+Fem+Anim+Acc:е́их # ; 
++Num+Fem+AnIn+Gen:е́их # ; 
++Num+Fem+AnIn+Loc:е́их # ; 
++Num+Fem+AnIn+Dat:е́им # ; 
++Num+Fem+AnIn+Ins:е́ими # ; 
+
+LEXICON полтора
++Num+Msc+AnIn+Nom:тора́ # ; 
++Num+Msc+AnIn+Acc:тора́ # ; 
++Num+Neu+AnIn+Nom:тора́ # ; 
++Num+Neu+AnIn+Acc:тора́ # ; 
++Num+Fem+AnIn+Nom:торы́ # ; 
++Num+Fem+AnIn+Acc:торы́ # ; 
++Num+MFN+AnIn+Gen:у́тора # ; 
++Num+MFN+AnIn+Loc:у́тора # ; 
++Num+MFN+AnIn+Dat:у́тора # ; 
++Num+MFN+AnIn+Ins:у́тора # ; 
+
+LEXICON 3
++Num+MFN+AnIn+Nom:и́ # ; 
++Num+Msc+Inan+Acc:и́ # ; 
++Num+Msc+Anim+Acc:ёх # ; 
++Num+Neu+AnIn+Acc:и́ # ; 
++Num+Fem+AnIn+Acc:и́ # ; 
++Num+Fem+Anim+Acc+Fac:ёх # ; 
++Num+MFN+AnIn+Gen:ёх # ; 
++Num+MFN+AnIn+Loc:ёх # ; 
++Num+MFN+AnIn+Dat:ём # ; 
++Num+MFN+AnIn+Ins:емя́ # ; 
+
+LEXICON 4
++Num+MFN+AnIn+Nom:ы́ре # ; 
++Num+Msc+Inan+Acc:ы́ре # ; 
++Num+Msc+Anim+Acc:ырёх # ; 
++Num+Neu+AnIn+Acc:ы́ре # ; 
++Num+Fem+AnIn+Acc:ы́ре # ; 
++Num+Fem+Anim+Acc+Fac:ырёх # ; 
++Num+MFN+AnIn+Gen:ырёх # ; 
++Num+MFN+AnIn+Loc:ырёх # ; 
++Num+MFN+AnIn+Dat:ырём # ; 
++Num+MFN+AnIn+Ins:ырьмя́ # ; 
+
+LEXICON Num_stem
++Num+MFN+AnIn+Nom:ь # ; 
++Num+MFN+AnIn+Acc:ь # ; 
++Num+MFN+AnIn+Gen:и # ; 
++Num+MFN+AnIn+Loc:и # ; 
++Num+MFN+AnIn+Dat:и # ; 
++Num+MFN+AnIn+Ins:ью # ; 
+
+LEXICON Num_end
++Num+MFN+AnIn+Nom:ь # ; 
++Num+MFN+AnIn+Acc:ь # ; 
++Num+MFN+AnIn+Gen:%>и́ # ; 
++Num+MFN+AnIn+Loc:%>и́ # ; 
++Num+MFN+AnIn+Dat:%>и́ # ; 
++Num+MFN+AnIn+Ins:%>ью́ # ; 
+
+LEXICON 8
++Num+MFN+AnIn+Nom:емь # ; 
++Num+MFN+AnIn+Acc:емь # ; 
++Num+MFN+AnIn+Gen:%>ьми́ # ; 
++Num+MFN+AnIn+Loc:%>ьми́ # ; 
++Num+MFN+AnIn+Dat:%>ьми́ # ; 
++Num+MFN+AnIn+Ins:%>емью́ # ; 
++Num+MFN+AnIn+Ins+Fac:%>ьмью́ # ; 
+
+LEXICON числ.___а
++Num+MFN+AnIn+Nom: # ; 
++Num+MFN+AnIn+Acc: # ; 
++Num+MFN+AnIn+Gen:%>а # ; 
++Num+MFN+AnIn+Loc:%>а # ; 
++Num+MFN+AnIn+Dat:%>а # ; 
++Num+MFN+AnIn+Ins:%>а # ; 
+
+LEXICON числ.___а́
++Num+MFN+AnIn+Nom: # ; 
++Num+MFN+AnIn+Acc: # ; 
++Num+MFN+AnIn+Gen:%>а́ # ; 
++Num+MFN+AnIn+Loc:%>а́ # ; 
++Num+MFN+AnIn+Dat:%>а́ # ; 
++Num+MFN+AnIn+Ins:%>а́ # ; 
+
+LEXICON полтораста
++Num+MFN+AnIn+Nom:тора́ста # ; 
++Num+MFN+AnIn+Acc:тора́ста # ; 
++Num+MFN+AnIn+Gen:у́тораста # ; 
++Num+MFN+AnIn+Loc:у́тораста # ; 
++Num+MFN+AnIn+Dat:у́тораста # ; 
++Num+MFN+AnIn+Ins:у́тораста # ; 
+
+LEXICON числ._-деся́т
++Num+MFN+AnIn+Nom:ьдеся́т # ; 
++Num+MFN+AnIn+Acc:ьдеся́т # ; 
++Num+MFN+AnIn+Gen:и́десяти # ; 
++Num+MFN+AnIn+Loc:и́десяти # ; 
++Num+MFN+AnIn+Dat:и́десяти # ; 
++Num+MFN+AnIn+Ins:ью́десятью # ; 
+
+LEXICON числ._-десят
++Num+MFN+AnIn+Nom:ьдесят # ; 
++Num+MFN+AnIn+Acc:ьдесят # ; 
++Num+MFN+AnIn+Gen:%>и́десяти # ; 
++Num+MFN+AnIn+Loc:%>и́десяти # ; 
++Num+MFN+AnIn+Dat:%>и́десяти # ; 
++Num+MFN+AnIn+Ins:%>ью́десятью # ; 
+
+LEXICON 80
+:%^Fем числ._-десят ;
++Num+MFN+AnIn+Ins:мью́десятью # ; 
+
+LEXICON 200
++Num+MFN+AnIn+Nom:е́сти # ; 
++Num+MFN+AnIn+Acc:е́сти # ; 
++Num+MFN+AnIn+Gen:ухсо́т # ; 
++Num+MFN+AnIn+Loc:ухста́х # ; 
++Num+MFN+AnIn+Dat:умста́м # ; 
++Num+MFN+AnIn+Ins:умяста́ми # ; 
+
+LEXICON 300
++Num+MFN+AnIn+Nom:и́ста # ; 
++Num+MFN+AnIn+Acc:и́ста # ; 
++Num+MFN+AnIn+Gen:ё̀хсо́т # ; 
++Num+MFN+AnIn+Loc:ё̀хста́х # ; 
++Num+MFN+AnIn+Dat:ё̀мста́м # ; 
++Num+MFN+AnIn+Ins:емяста́ми # ; 
+
+LEXICON 400
++Num+MFN+AnIn+Nom:ы́реста # ; 
++Num+MFN+AnIn+Acc:ы́реста # ; 
++Num+MFN+AnIn+Gen:ырё̀хсо́т # ; 
++Num+MFN+AnIn+Loc:ырё̀хста́х # ; 
++Num+MFN+AnIn+Dat:ырё̀мста́м # ; 
++Num+MFN+AnIn+Ins:ырьмяста́ми # ; 
+
+LEXICON 500
++Num+MFN+AnIn+Nom:ьсо́т # ; 
++Num+MFN+AnIn+Acc:ьсо́т # ; 
++Num+MFN+AnIn+Gen:исо́т # ; 
++Num+MFN+AnIn+Loc:иста́х # ; 
++Num+MFN+AnIn+Dat:иста́м # ; 
++Num+MFN+AnIn+Ins:ьюста́ми # ; 
+
+LEXICON 800
+:%^Fем 500 ;
++Num+MFN+AnIn+Ins:мьюста́ми # ; 
+
+LEXICON 1000
++Num+MFN+AnIn+Nom:а # ; 
++Num+MFN+AnIn+Acc:у # ; 
++Num+MFN+AnIn+Gen:и # ; 
++Num+MFN+AnIn+Loc:е # ; 
++Num+MFN+AnIn+Dat:е # ; 
++Num+MFN+AnIn+Ins:ью # ; 
+
+LEXICON двое
++Num+Coll+MFN+AnIn+Nom:о́е # ; 
++Num+Coll+MFN+Inan+Acc:о́е # ; 
++Num+Coll+MFN+Anim+Acc:ои́х # ; 
++Num+Coll+MFN+AnIn+Gen:ои́х # ; 
++Num+Coll+MFN+AnIn+Loc:ои́х # ; 
++Num+Coll+MFN+AnIn+Dat:ои́м # ; 
++Num+Coll+MFN+AnIn+Ins:ои́ми # ; 
+
+LEXICON четверо
++Num+Coll+MFN+AnIn+Nom:еро # ; 
++Num+Coll+MFN+Inan+Acc:еро # ; 
++Num+Coll+MFN+Anim+Acc:ерых # ; 
++Num+Coll+MFN+AnIn+Gen:ерых # ; 
++Num+Coll+MFN+AnIn+Loc:ерых # ; 
++Num+Coll+MFN+AnIn+Dat:ерым # ; 
++Num+Coll+MFN+AnIn+Ins:ерыми # ; 
+
+LEXICON девятеро
++Num+Coll+MFN+AnIn+Nom:еро # ; 
++Num+Coll+MFN+Inan+Acc:еро # ; 
++Num+Coll+MFN+Anim+Acc:ер%>ы́х # ; 
++Num+Coll+MFN+AnIn+Gen:ер%>ы́х # ; 
++Num+Coll+MFN+AnIn+Loc:ер%>ы́х # ; 
++Num+Coll+MFN+AnIn+Dat:ер%>ы́м # ; 
++Num+Coll+MFN+AnIn+Ins:ер%>ы́ми # ; 
+
+LEXICON числ._В./И._других_форм_нет
++Num+MFN+AnIn+Nom: # ; 
++Num+MFN+AnIn+Acc: # ; 
+
+LEXICON числ._много
++Num+MFN+AnIn+Nom:о # ; 
++Num+MFN+AnIn+Acc:о # ; 
++Num+MFN+AnIn+Gen:их # ; 
++Num+MFN+AnIn+Loc:их # ; 
++Num+MFN+AnIn+Dat:им # ; 
++Num+MFN+AnIn+Ins:ими # ; 
+
+LEXICON числ._сколько
++Num+MFN+AnIn+Nom:о # ; 
++Num+MFN+Inan+Acc:о # ; 
++Num+MFN+Anim+Acc:о # ; 
++Num+MFN+Anim+Acc+Use/NG:их # ; ! TODO FIX How to differentiate Acc Anim ?
++Num+MFN+AnIn+Gen:их # ; 
++Num+MFN+AnIn+Loc:их # ; 
++Num+MFN+AnIn+Dat:им # ; 
++Num+MFN+AnIn+Ins:ими # ; 
+
+LEXICON числ._сколько-то
++Num+MFN+AnIn+Nom:о-то # ; 
++Num+MFN+Inan+Acc:о-то # ; 
++Num+MFN+Anim+Acc:о-то # ; 
++Num+MFN+Anim+Acc:их-то # ; 
++Num+MFN+AnIn+Gen:их-то # ; 
++Num+MFN+AnIn+Loc:их-то # ; 
++Num+MFN+AnIn+Dat:им-то # ; 
++Num+MFN+AnIn+Ins:ими-то # ; 
+
+LEXICON числ._сколько-нибудь
++Num+MFN+AnIn+Nom:о-нибудь # ; 
++Num+MFN+Inan+Acc:о-нибудь # ; 
++Num+MFN+Anim+Acc:о-нибудь # ; 
++Num+MFN+Anim+Acc:их-нибудь # ; 
++Num+MFN+AnIn+Gen:их-нибудь # ; 
++Num+MFN+AnIn+Loc:их-нибудь # ; 
++Num+MFN+AnIn+Dat:им-нибудь # ; 
++Num+MFN+AnIn+Ins:ими-нибудь # ; 
+
+LEXICON Numeral
+один:од%^Fи́н 1 "weight: 5.077525518576054" ; 
+полтора:пол полтора ; ! числ._И.,_В.—м,_с_полтора/,_ж_полторы/;_Р.,_Д.,_Т.,_П._полу/тора;_см._также_стр._66 "weight: 4.693341708801226" ;
+оба:о́б оба ; ! числ._И.,_В._неод._—_м,_с_о/ба,_ж_о/бе;_Р.,_В._одуш.,_П._—_м,_с_обо/их,_ж_обе/их;_Д._м,_с_обо/им,_ж_обе/им;_Т._м,_с_обо/ими,_ж_обе/ими;_см._также_стр._67 "weight: 5.26360250396227" ;
+два:дв 2 ; ! И., В. неод. — м, с два, ж две; Р., В. одуш., П. двух, Д. двум, Т. двумя/"weight: 6.008579796837242" ; см. также стр. 66-67
+три:тр 3 ; ! числ._Р.,_В._одуш.,_П._трёх,_Д._трём,_Т._тремя/,_В._неод.=И.;_см._также_стр._66-67 "weight: 5.673187977976292" ;
+четыре:чет 4 ; ! числ._Р.,_В._одуш.,_П._четырёх,_Д._четырём,_Т._четырьмя/,_В._неод.=И.;_см._также_стр._66,_67 "weight: 5.276003556260191" ;
+пять:пя́т Num_end ; ! числ._Р.,_Д.,_П._пяти/,_Т._пятью/,_В.=И. "weight: 5.353556557195747" ;
+шесть:ше́ст Num_end ; ! числ. "weight: 4.959823457366738" ;
+семь:се́м Num_end ; ! числ._Р.,_Д.,_П._семи/,_Т._семью/,_В.=И. "weight: 4.901533606308385" ;
+восемь:во́с 8 ; ! числ._Р.,_Д.,_П._восьми/,_Т._восемью/_//_восьмью/,_В.=И. "weight: 4.786481249242607" ;
+девять:де́вят Num_end ; ! числ._Р.,_Д.,_П._девяти/,_Т._ью/,_В.=И. "weight: 4.561122767561076" ;
+десять:де́сят Num_end ; ! числ._Р.,_Д.,_П._десяти/,_Т._ью/,_В.=И. "weight: 5.176332435553339" ;
+одиннадцать:оди́ннадцат Num_stem ; ! числ._склон._см._двена/дцать "weight: 4.230269365384701" ;
+двенадцать:двена́дцат Num_stem ; ! числ._Р.,_Д.,_П._двена/дцати,_Т._ью,_В.=И. "weight: 4.459373083271887" ;
+тринадцать:трина́дцат Num_stem ; ! числ._склон._см._двена/дцать "weight: 3.8451846773982505" ;
+четырнадцать:четы́рнадцат Num_stem ; ! числ._склон._см._двена/дцать "weight: 3.999634011515089" ;
+пятнадцать:пятна́дцат Num_stem ; ! числ._склон._см._двена/дцать "weight: 4.6280229415654" ;
+шестнадцать:шестна́дцат Num_stem ; ! числ._склон._см._двена/дцать "weight: 4.037554637019131" ;
+семнадцать:семна́дцат Num_stem ; ! числ._склон._см._двена/дцать "weight: 3.9183873405887057" ;
+восемнадцать:восемна́дцат Num_stem ; ! числ._склон._см._двена/дцать "weight: 4.1047088756538805" ;
+девятнадцать:девятна́дцат Num_stem ; ! числ._склон._см._двена/дцать ;
+двадцать:два́дцат Num_end "weight: 5.100300074196872" ; ! числ._Р.,_Д.,_П._двадцати/,_Т._ью/,_В.=И.
+тридевять:три́девять Num_end ; 
+тридцать:три́дцат Num_end ; ! числ._склон._см._два/дцать "weight: 4.880989508004477" ;
+сорок:со́рок числ.___а́ "weight: 4.852252004311969" ; 
+пятьдесят:пят числ._-деся́т "weight: 4.716383500373421" ; 
+шестьдесят:шест числ._-деся́т "weight: 4.301653514287249" ; 
+семьдесят:се́м числ._-десят "weight: 4.248519717956994" ; 
+восемьдесят:во́сь 80 "weight: 4.186165544530369" ; 
+девяносто:девяно́сто числ.___а "weight: 4.040449944288545" ; 
+сто:сто́ числ.___а́ "weight: 4.941958952170507" ; 
+полтораста:пол полтораста ; 
+двести:дв 200 "weight: 4.421321984149757" ; 
+триста:тр 300 "weight: 4.278512727314484" ; 
+четыреста:чет 400 "weight: 3.4690259796978413" ; 
+пятьсот:пят 500 "weight: 4.077426149056823" ; 
+шестьсот:шест 500 ; 
+семьсот:сем 500 ; 
+восемьсот:вось 800 ; 
+девятьсот:девят 500 ; 
+тысяча:ты́сяч 1000 "weight: 3.938003974304152" ; 
+
+двое:дв двое "weight: 4.869058460735046" ; 
+трое:тр двое "weight: 4.6551299797985415" ; 
+четверо:че́тв четверо "weight: 4.208042018556814" ; 
+пятеро:пя́т четверо "weight: 3.71569831303923" ; 
+шестеро:ше́ст четверо "weight: 3.455367794913187" ; 
+семеро:се́м четверо ; 
+восьмеро:во́сьм четверо ; 
+девятеро:де́вят девятеро ; 
+десятеро:де́сят девятеро ; 
+
+немножко:немно́жко числ._В./И._других_форм_нет ; 
+немножечко:немно́жечко числ._В./И._других_форм_нет ; 
+сколечко:ско́лечко числ._В./И._других_форм_нет ; 
+нисколечко:ниско́лечко числ._В./И._других_форм_нет ; 
+столечко:сто́лечко числ._В./И._других_форм_нет ; 
+нисколько:ниско́лько числ._В./И._других_форм_нет ; 
+эстолько:э́столько числ._В./И._других_форм_нет ; 
+мало:ма́ло числ._В./И._других_форм_нет "weight: 5.310807601052765" ; 
+немало:нема́ло числ._В./И._других_форм_нет "weight: 4.573030809470499" ; 
+порядочно:поря́дочно числ._В./И._других_форм_нет ; 
+
+много:мно́г числ._много "weight: 5.867046654775442" ; 
+немного:немно́г числ._много "weight: 4.260201522237441" ; 
+
+сколько:ско́льк числ._сколько "weight: 5.386481085462544" ; 
+столько:сто́льк числ._сколько "weight: 4.88518712472084" ; 
+несколько:не́скольк числ._сколько "weight: 5.645206867168225" ; 
+
+сколько-то:ско́льк числ._сколько-то ; 
+сколько-нибудь:ско́льк числ._сколько-нибудь ; 
+
+третий:тре́т%^Fий числ.-п_[мс_a] "weight: 5.301831386384078" ; 
+обой:обо́й числ.-п_[мс_a] ; 
+
+первый:пе́рв числ.-п_[п_a] "weight: 6.015320286033239" ; 
+четвёртый:четвёрт числ.-п_[п_a] ; 
+пятый:пя́т числ.-п_[п_a] "weight: 4.547983073749831" ; 
+девятый:девя́т числ.-п_[п_a] "weight: 4.070076374720141" ; 
+десятый:деся́т числ.-п_[п_a] "weight: 3.480961541070775" ; 
+одиннадцатый:оди́ннадцат числ.-п_[п_a] ; 
+двенадцатый:двена́дцат числ.-п_[п_a] ; 
+тринадцатый:трина́дцат числ.-п_[п_a] ; 
+четырнадцатый:четы́рнадцат числ.-п_[п_a] ; 
+пятнадцатый:пятна́дцат числ.-п_[п_a] ; 
+шестнадцатый:шестна́дцат числ.-п_[п_a] ; 
+семнадцатый:семна́дцат числ.-п_[п_a] ; 
+восемнадцатый:восемна́дцат числ.-п_[п_a] ; 
+девятнадцатый:девятна́дцат числ.-п_[п_a] ; 
+
+двадцатый:двадца́т числ.-п_[п_a] "weight: 3.5452841868752394" ; 
+тридцатый:тридца́т числ.-п_[п_a] "weight: 3.5757735090231395" ; 
+пятидесятый:пятидеся́т числ.-п_[п_a] ; 
+шестидесятый:шестидеся́т числ.-п_[п_a] "weight: 3.524489521618828" ; 
+семидесятый:семидеся́т числ.-п_[п_a] "weight: 3.483569924178303" ; 
+восьмидесятый:восьмидеся́т числ.-п_[п_a] ; 
+девяностый:девяно́ст числ.-п_[п_a] "weight: 3.4663284897716107" ; 
+
+сотый:со́т числ.-п_[п_a] ; 
+двухсотый:двухсо́т числ.-п_[п_a] ; 
+трёхсотый:трё̀хсо́т числ.-п_[п_a] ; 
+четырёхсотый:четырё̀хсо́т числ.-п_[п_a] ; 
+пятисотый:пятисо́т числ.-п_[п_a] ; 
+шестисотый:шестисо́т числ.-п_[п_a] ; 
+семисотый:семисо́т числ.-п_[п_a] ; 
+восьмисотый:восьмисо́т числ.-п_[п_a] ; 
+девятисотый:девятисо́т числ.-п_[п_a] ; 
+
+двунадесятый:двунадеся́т числ.-п_[п_a] ; 
+тридесятый:тридеся́т числ.-п_[п_a] ; 
+
+второй:втор числ.-п_[п_b] "weight: 5.623166248357229" ; 
+шестой:шест числ.-п_[п_b] "weight: 4.334755011344926" ; 
+седьмой:седьм числ.-п_[п_b] "weight: 4.355848353975332" ; 
+восьмой:восьм числ.-п_[п_b] "weight: 3.944350770710531" ; 
+сороковой:сороков числ.-п_[п_b] ; 
+
+!!!! compound numeral adjectives, e.g. двухлетний, двухлетие, трехэтажный и т.д.
+compound_num_ones ;
+compound_num_teens ;
+compound_num_tens ;
+compound_num_hundreds ;
+compound_num_thousands ;
+compound_num_teen_thousands ;
+compound_num_ten_thousands ;
+compound_num_hundred_thousands ;
+compound_num_millions ;
+compound_num_teen_millions ;
+compound_num_ten_millions ;
+compound_num_hundred_millions ;
+
+№:№ num_simple ; ! TODO FIX CHECK In this context, only a cardinal/nominal ending is likely
+num_simple ;
+num_ones ; 
+num_tens ;
+num_hundreds ;
+!< M^{0,4} ( C M | C D | (D) C^{0,3} ) ( X C | X L | (L) X^{0,3} ) ( I X | I V | (V) I^{0,3} ) > ROMNUM ;
+!< m^{0,4} ( c m | c d | (d) c^{0,3} ) ( x c | x l | (l) x^{0,3} ) ( i x | i v | (v) i^{0,3} ) > ROMNUM ;
+
+LEXICON ROMNUM
++Num: # ;
++Num+Ord: п_0_inflect ;
+! Roman numerals are used for:
+! centures or millenia: XIX век, II тысячелетие до н. э.
+! Ordinal number of a monarch: Карл V, Екатерина II.
+! Volume number (sometimes book part/section/chapter)
+! Introduction to book
+! clock faces (old-fashioned)
+! Other important events/points: V постулат Евклида, II мировая война, XX съезд КПСС, Игры XXII Олимпиады
+! Chemical valency
+! Musical chord progressions
+! База гомеопатических разведений (Conium X3, Aconitum C200 и т. п.).
+! In USSR, and tombstones, used for months: 11/III-85 или 9.XI.89. (outdated)
+! In western countries, year of establishment: buildings/monuments/film studios
+! In modern Lithuania, can mean days of the week
+
+LEXICON SQRD 
+²+Num+Use/NG:2 # ;  ! Dir/LR
+³+Num+Use/NG:3 # ;  ! Dir/LR
+²+Num:² # ; 
+³+Num:³ # ; 
++Num: num_cases ;
+
+LEXICON num_cases
++Nom: # ;
++Acc: # ;
++Gen: # ;
++Loc: # ;
++Dat: # ;
++Ins: # ;
+
+LEXICON num_term
+num_continuous ;
++Num+Ord: ABBR_LF_stem_hard ;
+%-:%- compound_num_term ; ! TODO optional . breaks twolc rules: 8.534-летиео 
+
+LEXICON num_continuous
++Num: num_cases ;
+км:км SQRD ;
+мм:мм SQRD ;
+см:см SQRD ;
+м:м SQRD ;
+
+LEXICON num_simple_loop
+num_simple ;
+num_term ;
+%,:%, num_after_decimal ;
+
+LEXICON num_simple
+%0:%0 num_simple_loop "weight: 5.107963193867958" ; 
+1:1 num_simple_loop "weight: 5.733953400151218" ;
+2:2 num_simple_loop "weight: 5.6522208739487745" ;
+3:3 num_simple_loop "weight: 5.539355547524602" ;
+4:4 num_simple_loop "weight: 5.429910385775572" ;
+5:5 num_simple_loop "weight: 5.53021460114657" ;
+6:6 num_simple_loop "weight: 5.336929274635792" ;
+7:7 num_simple_loop "weight: 5.260418941256702" ;
+8:8 num_simple_loop "weight: 5.229733156116501" ;
+9:9 num_simple_loop "weight: 5.1030881393779595" ;
+
+LEXICON num_after_decimal_loop
+num_continuous ;
+num_after_decimal ;
+
+LEXICON num_after_decimal
+%0:%0 num_after_decimal_loop "weight: 5.107963193867958" ; 
+1:1 num_after_decimal_loop "weight: 5.733953400151218" ;
+2:2 num_after_decimal_loop "weight: 5.6522208739487745" ;
+3:3 num_after_decimal_loop "weight: 5.539355547524602" ;
+4:4 num_after_decimal_loop "weight: 5.429910385775572" ;
+5:5 num_after_decimal_loop "weight: 5.53021460114657" ;
+6:6 num_after_decimal_loop "weight: 5.336929274635792" ;
+7:7 num_after_decimal_loop "weight: 5.260418941256702" ;
+8:8 num_after_decimal_loop "weight: 5.229733156116501" ;
+9:9 num_after_decimal_loop "weight: 5.1030881393779595" ;
+
+LEXICON num_cycle
+%,:%, num_after_decimal ;
+%.:%. num_hundreds ;
+num_term ;
+
+LEXICON num_ones
+%0:%0 num_cycle "weight: 5.107963193867958" ; 
+1:1 num_cycle "weight: 5.733953400151218" ;
+2:2 num_cycle "weight: 5.6522208739487745" ;
+3:3 num_cycle "weight: 5.539355547524602" ;
+4:4 num_cycle "weight: 5.429910385775572" ;
+5:5 num_cycle "weight: 5.53021460114657" ;
+6:6 num_cycle "weight: 5.336929274635792" ;
+7:7 num_cycle "weight: 5.260418941256702" ;
+8:8 num_cycle "weight: 5.229733156116501" ;
+9:9 num_cycle "weight: 5.1030881393779595" ;
+
+LEXICON num_tens
+%0:%0 num_ones "weight: 5.107963193867958" ; 
+1:1 num_ones "weight: 5.733953400151218" ;
+2:2 num_ones "weight: 5.6522208739487745" ;
+3:3 num_ones "weight: 5.539355547524602" ;
+4:4 num_ones "weight: 5.429910385775572" ;
+5:5 num_ones "weight: 5.53021460114657" ;
+6:6 num_ones "weight: 5.336929274635792" ;
+7:7 num_ones "weight: 5.260418941256702" ;
+8:8 num_ones "weight: 5.229733156116501" ;
+9:9 num_ones "weight: 5.1030881393779595" ;
+
+LEXICON num_hundreds
+%0:%0 num_tens "weight: 5.107963193867958" ; 
+1:1 num_tens "weight: 5.733953400151218" ;
+2:2 num_tens "weight: 5.6522208739487745" ;
+3:3 num_tens "weight: 5.539355547524602" ;
+4:4 num_tens "weight: 5.429910385775572" ;
+5:5 num_tens "weight: 5.53021460114657" ;
+6:6 num_tens "weight: 5.336929274635792" ;
+7:7 num_tens "weight: 5.260418941256702" ;
+8:8 num_tens "weight: 5.229733156116501" ;
+9:9 num_tens "weight: 5.1030881393779595" ;
+
+LEXICON compound_num_ones
+одно:одно compound_num_term ;
+двух:дву̀х compound_num_term ;
+трёх:трё̀х compound_num_term ;
+четырёх:четырё̀х compound_num_term ;
+пяти:пятѝ compound_num_term ;
+шести:шестѝ compound_num_term ;
+семи:семѝ compound_num_term ;
+восьми:восьмѝ compound_num_term ;
+девяти:девятѝ compound_num_term ;
+десяти:десятѝ compound_num_term ;
+
+LEXICON compound_num_teens
+одиннадцати:одѝннадцати compound_num_term ;
+двенадцати:двена̀дцати compound_num_term ;
+тринадцати:трина̀дцати compound_num_term ;
+четырнадцати:четы̀рнадцати compound_num_term ;
+пятнадцати:пятна̀дцати compound_num_term ;
+шестнадцати:шестна̀дцати compound_num_term ;
+семнадцати:семна̀дцати compound_num_term ;
+восемнадцати:восемна̀дцати compound_num_term ;
+девятнадцати:девятна̀дцати compound_num_term ;
+
+LEXICON compound_num_from_tens
+compound_num_term ;
+compound_num_ones ;
+
+LEXICON compound_num_tens
+двадцати:двадцатѝ compound_num_from_tens ;
+тридцати:тридцатѝ compound_num_from_tens ;
+сорока:сорока̀ compound_num_from_tens ;
+пятидесяти:пятѝдесяти compound_num_from_tens ;
+шестидесяти:шестѝдесяти compound_num_from_tens ;
+семидесяти:семѝдесяти compound_num_from_tens ;
+восьмидесяти:восьмѝдесяти compound_num_from_tens ;
+девяносто:девяно̀сто compound_num_from_tens ;
+
+LEXICON compound_num_from_hundreds
+compound_num_from_tens ;
+compound_num_tens ;
+compound_num_teens ;
+
+LEXICON compound_num_hundreds
+сто:сто compound_num_from_hundreds ;
+двухсот:дву̀хсо̀т compound_num_from_hundreds ;
+трёхсот:трё̀хсо̀т compound_num_from_hundreds ;
+четырёхсот:четырё̀хсо̀т compound_num_from_hundreds ;
+пятисот:пятѝсо̀т compound_num_from_hundreds ;
+шестисот:шестѝсо̀т compound_num_from_hundreds ;
+семисот:семѝсо̀т compound_num_from_hundreds ;
+восьмисот:восьмѝсо̀т compound_num_from_hundreds ;
+девятисот:девятѝсо̀т compound_num_from_hundreds ;
+
+LEXICON compound_num_from_thousands
+тысяче:ты̀сяче compound_num_from_hundreds ;
+тысяче:ты̀сяче compound_num_hundreds ;
+
+LEXICON compound_num_thousands
+compound_num_from_thousands ;
+двух:дву̀х compound_num_from_thousands ;
+трёх:трё̀х compound_num_from_thousands ;
+четырёх:четырё̀х compound_num_from_thousands ;
+пяти:пятѝ compound_num_from_thousands ;
+шести:шестѝ compound_num_from_thousands ;
+семи:семѝ compound_num_from_thousands ;
+восьми:восьмѝ compound_num_from_thousands ;
+девяти:девятѝ compound_num_from_thousands ;
+десяти:десятѝ compound_num_from_thousands ;
+
+LEXICON compound_num_teen_thousands
+одиннадцати:одѝннадцати compound_num_from_thousands ;
+двенадцати:двена̀дцати compound_num_from_thousands ;
+тринадцати:трина̀дцати compound_num_from_thousands ;
+четырнадцати:четы̀рнадцати compound_num_from_thousands ;
+пятнадцати:пятна̀дцати compound_num_from_thousands ;
+шестнадцати:шестна̀дцати compound_num_from_thousands ;
+семнадцати:семна̀дцати compound_num_from_thousands ;
+восемнадцати:восемна̀дцати compound_num_from_thousands ;
+девятнадцати:девятна̀дцати compound_num_from_thousands ;
+
+LEXICON compound_num_from_ten_thousands
+compound_num_from_thousands ;
+compound_num_thousands ;
+
+LEXICON compound_num_ten_thousands
+двадцати:двадцатѝ compound_num_from_ten_thousands ;
+тридцати:тридцатѝ compound_num_from_ten_thousands ;
+сорока:сорока̀ compound_num_from_ten_thousands ;
+пятидесяти:пятѝдесяти compound_num_from_ten_thousands ;
+шестидесяти:шестѝдесяти compound_num_from_ten_thousands ;
+семидесяти:семѝдесяти compound_num_from_ten_thousands ;
+восьмидесяти:восьмѝдесяти compound_num_from_ten_thousands ;
+девяносто:девяно̀сто compound_num_from_ten_thousands ;
+
+LEXICON compound_num_from_hundred_thousands
+compound_num_from_ten_thousands ;
+compound_num_ten_thousands ;
+compound_num_teen_thousands ;
+
+LEXICON compound_num_hundred_thousands
+сто:сто compound_num_from_hundred_thousands ;
+двухсот:дву̀хсо̀т compound_num_from_hundred_thousands ;
+трёхсот:трё̀хсо̀т compound_num_from_hundred_thousands ;
+четырёхсот:четырё̀хсо̀т compound_num_from_hundred_thousands ;
+пятисот:пятѝсо̀т compound_num_from_hundred_thousands ;
+шестисот:шестѝсо̀т compound_num_from_hundred_thousands ;
+семисот:семѝсо̀т compound_num_from_hundred_thousands ;
+восьмисот:восьмѝсо̀т compound_num_from_hundred_thousands ;
+девятисот:девятѝсо̀т compound_num_from_hundred_thousands ;
+
+LEXICON compound_num_from_millions
+миллионо:миллио̀но compound_num_from_hundred_thousands ;
+миллионо:миллио̀но compound_num_hundred_thousands ;
+миллионо:миллио̀но compound_num_from_hundreds ;
+миллионо:миллио̀но compound_num_hundreds ;
+
+LEXICON compound_num_millions
+compound_num_from_millions ;
+двух:дву̀х compound_num_from_millions ;
+трёх:трё̀х compound_num_from_millions ;
+четырёх:четырё̀х compound_num_from_millions ;
+пяти:пятѝ compound_num_from_millions ;
+шести:шестѝ compound_num_from_millions ;
+семи:семѝ compound_num_from_millions ;
+восьми:восьмѝ compound_num_from_millions ;
+девяти:девятѝ compound_num_from_millions ;
+
+LEXICON compound_num_teen_millions
+одиннадцати:одѝннадцати compound_num_from_millions ;
+двенадцати:двена̀дцати compound_num_from_millions ;
+тринадцати:трина̀дцати compound_num_from_millions ;
+четырнадцати:четы̀рнадцати compound_num_from_millions ;
+пятнадцати:пятна̀дцати compound_num_from_millions ;
+шестнадцати:шестна̀дцати compound_num_from_millions ;
+семнадцати:семна̀дцати compound_num_from_millions ;
+восемнадцати:восемна̀дцати compound_num_from_millions ;
+девятнадцати:девятна̀дцати compound_num_from_millions ;
+
+LEXICON compound_num_from_ten_millions
+compound_num_from_millions ;
+compound_num_millions ;
+
+LEXICON compound_num_ten_millions
+двадцати:двадцатѝ compound_num_from_ten_millions ;
+тридцати:тридцатѝ compound_num_from_ten_millions ;
+сорока:сорока̀ compound_num_from_ten_millions ;
+пятидесяти:пятѝдесяти compound_num_from_ten_millions ;
+шестидесяти:шестѝдесяти compound_num_from_ten_millions ;
+семидесяти:семѝдесяти compound_num_from_ten_millions ;
+восьмидесяти:восьмѝдесяти compound_num_from_ten_millions ;
+девяносто:девяно̀сто compound_num_from_ten_millions ;
+
+LEXICON compound_num_from_hundred_millions
+compound_num_from_ten_millions ;
+compound_num_ten_millions ;
+compound_num_teen_millions ;
+
+LEXICON compound_num_hundred_millions
+сто:сто compound_num_from_hundred_millions ;
+двухсот:дву̀хсо̀т compound_num_from_hundred_millions ;
+трёхсот:трё̀хсо̀т compound_num_from_hundred_millions ;
+четырёхсот:четырё̀хсо̀т compound_num_from_hundred_millions ;
+пятисот:пятѝсо̀т compound_num_from_hundred_millions ;
+шестисот:шестѝсо̀т compound_num_from_hundred_millions ;
+семисот:семѝсо̀т compound_num_from_hundred_millions ;
+восьмисот:восьмѝсо̀т compound_num_from_hundred_millions ;
+девятисот:девятѝсо̀т compound_num_from_hundred_millions ;
+
+LEXICON compound_num_term  ! terminal
+адресный:а́дрес%^Fен п_a ;
+атомный:а́том%^Fен п_a ;
+актный:а́кт%^Fен п_a ;
+балльный:ба́лль%^Fен п_a ;
+буквенный:бу́квен%^Fен п_a ;
+дневный:дне́в%^Fен п_a ;
+дольный:до́ль%^Fен п_a ;
+дюймовый:дю́ймов п_a ;
+километровый:километро́в п_a ;
+комнатный:ко́мнат%^Fен п_a ;
+кратный:кра́т%^Fен п_a ;
+лапый:ла́п п_a ;
+летний:ле́т%^Fень п_a ;
+листный:ли́ст%^Fен п_a ;
+литровый:литро́в п_a ;
+матчевый:ма́тчев п_a ;
+месячный:ме́сяч%^Fен п_a ;
+метровый:метро́в п_a ;
+минутный:мину́т%^Fен п_a ;
+недельный:неде́ль%^Fен п_a ;
+ногий:но́г п_a ;
+процентный:проце́нт%^Fен п_a ;
+разовый:ра́зов п_a ;
+рогий:ро́г п_a ;
+ручный:ру́ч%^Fен п_a ;
+рядный:ря́д%^Fен п_a ;
+серийный:сери́й%^Fен п_a ;
+сотенный:со́тен%^Fен п_a ;  ! TODO check with native
+стопный:сто́п%^Fен п_a ;
+сторонний:сторо́н%^Fень п_a ;
+строчный:стро́ч%^Fен п_a ;
+томный:то́м%^Fен п_a ;
+точечный:то́чеч%^Fен п_a ;
+тысячный:ты́сяч%^Fен п_a ;
+угольный:уго́ль%^Fен п_a ;
+уровневый:у́ровнев п_a ;
+футовый:фу́тов п_a ;
+цветный:цве́т%^Fен п_a ;
+часовой:часов п_b ;
+этажный:эта́ж%^Fен п_a ;
+
+летие:ле́тие с_a ;
+угольник:уго́льник м_a ;

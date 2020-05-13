@@ -1,0 +1,27 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+Tests:
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+  Noun - имя M anim : # Noun - full paradigm
+      имя+N+Neu+Inan+Sg+Nom: имя
+      имя+N+Neu+Inan+Sg+Acc: имя
+      имя+N+Neu+Inan+Sg+Gen: имени
+      имя+N+Neu+Inan+Sg+Loc: имени
+      имя+N+Neu+Inan+Sg+Dat: имени
+      имя+N+Neu+Inan+Sg+Ins: именем
+      имя+N+Neu+Inan+Pl+Nom: имена
+      имя+N+Neu+Inan+Pl+Acc: имена
+      имя+N+Neu+Inan+Pl+Gen: имён
+      имя+N+Neu+Inan+Pl+Loc: именах
+      имя+N+Neu+Inan+Pl+Dat: именам
+      имя+N+Neu+Inan+Pl+Ins: именами
+

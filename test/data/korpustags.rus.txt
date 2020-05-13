@@ -1,0 +1,126 @@
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% %
+%                                                                            %
+%    List of morphological and syntactic tags used in the Ïnupiaq corpus     %
+%                                                                            %
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% %
+
+%     Table of contents
+%  0. A short explanation
+%  1. Structure of the different POS (the details of sect. 1 are just the sme ones)
+%  2. List of the tags, and their internal distribution (these lists are the smj ones)
+
+
+
+% The Document has two parts. 
+% The first part outlines the internal structure of
+% the complex POS, these should be built as boxes or panes.
+% The last part is a list over the different morphosyntactic categories.
+
+% The tags are in complementary distribution within each tag column.
+% The derivation component is ignored.
+
+
+% 1. Structure of the different POS
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Note!!! The tag grouping under this section is not up to date
+
+% Tag syntax for the larger POS
+% Not all combinations within each box are possibe.
+
+% "-" indicates optionality. It is perhaps not needed. "|" means "OR".
+% The Function: list is listed below, and not indicated here.
+
+% The name of these boxes are now legible, rather than the tags (tags in parentheses?)
+% Noun: N
+% Gender: Msc|Fem|Neu
+% Animacy: Anim|Inim
+% Number: Sg|Pl
+% Case: Nom|Acc|Gen|Dat|Ins|Dat|Loc
+
+% Function:
+
+% Verb: V
+% Mood: Ind|Imp
+% Perfectivity: Impf|Perf
+% PersonNumber: 1Sg|2Sg|3Sg|Pl
+% Infinite: Inf|Sup|PrsPtc|PstPtc
+% Function:
+
+% Pronoun: Pron
+% Case: Nom|Acc|Gen|Loc|Dat|Ins
+% Number: Sg|Pl
+% Function:
+
+
+% 2.  List of the tags, and their internal distribution
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Initial star = not yet found in kal file
+N	Noun
+V	Verb
+Pron	Pronoun
+Part Particle
+#Wordclass
+
+Prop	Propernoun
+#Subclass
+
+Msc Masculine
+Fem Feminine
+Neu Neuter
+MFN Unknown or irrelevant
+#Gender
+
+Anim Animate
+Inan Inanimate
+#Animacy
+
+Sg	Singular
+Pl	Plural
+#Number
+
+Nom Nominative
+Acc Accusative
+Gen Genitive
+Dat Dative
+Ins Instrumental
+Loc Locative
+#Case
+
+Indef Indefinite
+Def Definite
+#Definiteness
+
+Imp Imperative
+#Mood
+
+Sg1 First person singular
+Sg2 Second person singular
+Sg3 Third person singular
+Pl1 First person plural
+Pl2 Second person plural
+Pl3 Third person plural
+#PersonNumber
+
+Inf
+#Infinite
+
+Pst
+Prs
+Fut
+#Tense
+
+Impf
+Perf
+#Aspect
+
+IV Intransitive
+TV Transitive
+#Transitivity
+
+PstAct
+PstPss
+PrsAct
+PrsPss
+#Participle

@@ -1,0 +1,79 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+Tests:
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+  Noun - официант M anim : # Noun - full paradigm
+      официант+N+Msc+Anim+Sg+Nom: официант
+      официант+N+Msc+Anim+Sg+Acc: официанта
+      официант+N+Msc+Anim+Sg+Gen: официанта
+      официант+N+Msc+Anim+Sg+Loc: официанте
+      официант+N+Msc+Anim+Sg+Dat: официанту
+      официант+N+Msc+Anim+Sg+Ins: официантом
+      официант+N+Msc+Anim+Pl+Nom: официанты
+      официант+N+Msc+Anim+Pl+Acc: официантов
+      официант+N+Msc+Anim+Pl+Gen: официантов
+      официант+N+Msc+Anim+Pl+Loc: официантах
+      официант+N+Msc+Anim+Pl+Dat: официантам
+      официант+N+Msc+Anim+Pl+Ins: официантами
+  Noun - сосед M anim : # Noun - full paradigm
+      сосед+N+Msc+Anim+Sg+Nom: сосед
+      сосед+N+Msc+Anim+Sg+Acc: соседа
+      сосед+N+Msc+Anim+Sg+Gen: соседа
+      сосед+N+Msc+Anim+Sg+Loc: соседе
+      сосед+N+Msc+Anim+Sg+Dat: соседу
+      сосед+N+Msc+Anim+Sg+Ins: соседом
+      сосед+N+Msc+Anim+Pl+Nom: соседи
+      сосед+N+Msc+Anim+Pl+Acc: соседей
+      сосед+N+Msc+Anim+Pl+Gen: соседей
+      сосед+N+Msc+Anim+Pl+Loc: соседях
+      сосед+N+Msc+Anim+Pl+Dat: соседям
+      сосед+N+Msc+Anim+Pl+Ins: соседями
+  Noun - студент M anim : # Noun - full paradigm
+     студент+N+Msc+Anim+Sg+Nom: студент
+     студент+N+Msc+Anim+Sg+Acc: студента
+     студент+N+Msc+Anim+Sg+Gen: студента
+     студент+N+Msc+Anim+Sg+Loc: студенте
+     студент+N+Msc+Anim+Sg+Dat: студенту
+     студент+N+Msc+Anim+Sg+Ins: студентом
+     студент+N+Msc+Anim+Pl+Nom: студенты
+     студент+N+Msc+Anim+Pl+Acc: студентов
+     студент+N+Msc+Anim+Pl+Gen: студентов
+     студент+N+Msc+Anim+Pl+Loc: студентах
+     студент+N+Msc+Anim+Pl+Dat: студентам
+     студент+N+Msc+Anim+Pl+Ins: студентами
+  Noun - гость M anim : # Noun - full paradigm
+      гость+N+Msc+Anim+Sg+Nom: гость
+      гость+N+Msc+Anim+Sg+Acc: гостя
+      гость+N+Msc+Anim+Sg+Gen: гостя
+      гость+N+Msc+Anim+Sg+Loc: госте
+      гость+N+Msc+Anim+Sg+Dat: гостю
+      гость+N+Msc+Anim+Sg+Ins: гостем
+      гость+N+Msc+Anim+Pl+Nom: гости
+      гость+N+Msc+Anim+Pl+Acc: гостей
+      гость+N+Msc+Anim+Pl+Gen: гостей
+      гость+N+Msc+Anim+Pl+Loc: гостях
+      гость+N+Msc+Anim+Pl+Dat: гостям
+      гость+N+Msc+Anim+Pl+Ins: гостями
+  Noun - конь M anim : # Noun - full paradigm
+      конь+N+Msc+Anim+Sg+Nom: конь
+      конь+N+Msc+Anim+Sg+Acc: коня
+      конь+N+Msc+Anim+Sg+Gen: коня
+      конь+N+Msc+Anim+Sg+Loc: коне
+      конь+N+Msc+Anim+Sg+Dat: коню
+      конь+N+Msc+Anim+Sg+Ins: конём
+      конь+N+Msc+Anim+Pl+Nom: кони
+      конь+N+Msc+Anim+Pl+Acc: коней
+      конь+N+Msc+Anim+Pl+Gen: коней
+      конь+N+Msc+Anim+Pl+Loc: конях
+      конь+N+Msc+Anim+Pl+Dat: коням
+      конь+N+Msc+Anim+Pl+Ins: конями
+
