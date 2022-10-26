@@ -38,6 +38,9 @@
 !                                       читать, etc.
 ! 1A has present passive ppl
 
+LEXICON passive
++V+Inf+Pass:%<иться # ;
+
 LEXICON нсв_1a
 нсв_нп_1a ;
 +V+Impf+TV: Impf_Inf_V_stem_w/Pass ;
