@@ -26,9 +26,9 @@ LEXICON SYMBOL_connector
 LEXICON SYMBOL_NO_suff
  +Sg+Nom: # ;
 
-LEXICON SYMBOL_suff
- +Sg+Gen:n       # ;
- +Sg+Acc:m       # ;
- +Pl+Nom:h       # ;
- +Pl+Gen:ij      # ;
- +Pl+Acc:ide     # ;
+! LEXICON SYMBOL_suff
+!  +Sg+Gen:n       # ;
+!  +Sg+Acc:m       # ;
+!  +Pl+Nom:h       # ;
+!  +Pl+Gen:ij      # ;
+!  +Pl+Acc:ide     # ;
